@@ -1,1 +1,1 @@
-# freeTech
+# Free Tech
