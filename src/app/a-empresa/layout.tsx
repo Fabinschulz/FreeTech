@@ -1,11 +1,10 @@
-import './globals.css';
+import '../globals.css';
 import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-    title: 'Free tech',
-    description:
-        'A FreeTech é uma empresa de tecnologia que oferece soluções inovadoras para o seu negócio.'
+    title: 'A empresa',
+    description: 'Conheça um pouco mais sobre a FreeTech e sua história.'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

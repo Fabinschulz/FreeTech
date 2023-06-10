@@ -57,7 +57,7 @@ const Header: FunctionComponent<any> = () => {
                     <Link href="/servicos" className="hover:text-sky-500">
                         Serviços
                     </Link>
-                    <Link href="/contato" className="hover:text-sky-500">
+                    <Link href="/contato" className="hover:text-sky-500 pb-5">
                         Contato
                     </Link>
                 </div>

@@ -1,8 +1,9 @@
 import Link from 'next/link';
+import { motion } from 'framer-motion-3d';
 
 const Hero = () => {
     return (
-        <section className=" h-screen bg-[#081b29] text-white flex flex-col items-center justify-center px-10">
+        <section className="h-screen bg-[#081b29] text-white flex flex-col items-center justify-center px-10">
             <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-center">
                 Bem vindo a FreeTech
             </h1>
