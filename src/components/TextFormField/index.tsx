@@ -26,8 +26,10 @@ const TextFormField = (props: TextFormFieldProps) => {
             <input
                 {...register(name)}
                 className={`appearance-none block w-full bg-[#112e42] text-white border-[3px] ${
-                    errors ? 'border-red-500' : 'border-sky-500'
-                } rounded py-3 px-4 mb-2 leading-tight focus:outline-none focus:shadow-sm focus:shadow-cyan-500
+                    errors
+                        ? 'border-red-500 focus:shadow-none'
+                        : 'border-sky-500 focus:shadow-sm focus:shadow-cyan-500'
+                } rounded py-3 px-4 mb-2 leading-tight focus:outline-none 
                 `}
                 id={`grid-${name}`}
                 type={type}
