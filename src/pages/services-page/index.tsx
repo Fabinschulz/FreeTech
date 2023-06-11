@@ -4,7 +4,7 @@ import { SiTypescript, SiJavascript, SiDotnet, SiCsharp, SiStorybook } from 'rea
 
 const ServicesPage = () => {
     return (
-        <section className="container mx-auto min-h-screen flex flex-col justify-center items-center py-20 px-10">
+        <section className="container mx-auto min-h-screen flex flex-col justify-center items-center py-32 px-10">
             <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-8">
                 Nossos <span className="text-sky-500">Serviços</span>
             </h1>
