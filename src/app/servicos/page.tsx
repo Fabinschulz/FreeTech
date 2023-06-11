@@ -1,10 +1,11 @@
+import ServicesPage from '@/pages/services-page';
 import dynamic from 'next/dynamic';
-const DynamicLayout = dynamic(() => import('@/components/Layout/layout'));
+const DynamicLayout = dynamic(() => import('@/components/Layout'));
 
 export default function Services() {
     return (
         <DynamicLayout>
-            <h1 className="h-screen">PageServices</h1>
+            <ServicesPage />
         </DynamicLayout>
     );
 }

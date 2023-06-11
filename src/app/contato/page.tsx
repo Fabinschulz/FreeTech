@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic';
-const DynamicLayout = dynamic(() => import('@/components/Layout/layout'));
-const DinamicContactPage = dynamic(() => import('@/pages/contact/contact.page'), {
+const DynamicLayout = dynamic(() => import('@/components/Layout'));
+const DinamicContactPage = dynamic(() => import('@/pages/contact'), {
     loading: () => <p>Carregando...</p>
 });
 

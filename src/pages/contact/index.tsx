@@ -1,5 +1,5 @@
 'use client';
-import { useForm } from 'react-hook-form';
+import { FieldValues, useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { validationSchemaContactForm, defaultValuesContactForm } from './schema';
 import TextFormField from '@/components/TextFormField';
@@ -14,7 +14,7 @@ function ContactPage() {
         resolver: yupResolver(validationSchemaContactForm())
     });
 
-    const onSubmit = (data: any) => {
+    const onSubmit = (data: FieldValues) => {
         console.log(data);
     };
 
@@ -22,7 +22,7 @@ function ContactPage() {
         <section className="min-h-screen flex flex-col items-center justify-center mx-4 py-24">
             <div className="flex flex-col items-center justify-center mb-12">
                 <h1 className="text-3xl md:text-5xl font-extrabold text-white">
-                    Envie uma <span className="text-sky-500">Mensagem!</span>
+                    Fale <span className="text-sky-500">Conosco!</span>
                 </h1>
             </div>
             <form onSubmit={handleSubmit(onSubmit)} className="w-full max-w-4xl">

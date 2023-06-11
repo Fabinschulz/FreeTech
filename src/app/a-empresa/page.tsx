@@ -1,6 +1,6 @@
-import AboutUsPage from '@/pages/about-us/about-us.page';
+import AboutUsPage from '@/pages/about-us';
 import dynamic from 'next/dynamic';
-const DynamicLayout = dynamic(() => import('@/components/Layout/layout'));
+const DynamicLayout = dynamic(() => import('@/components/Layout'));
 
 export default function AboutUs() {
     return (
