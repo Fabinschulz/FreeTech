@@ -12,7 +12,7 @@ const Header: FunctionComponent<any> = () => {
     };
 
     return (
-        <div className="bg-[#081b29] fixed w-full">
+        <div className="bg-[#081b29] fixed w-full z-50">
             <nav className="flex justify-between items-center h-16 text-white relative drop-shadow-lg font-sans max-w-7xl mx-auto px-[24px]">
                 <Link href="#" className="text-white text-3xl hover:text-sky-500">
                     FreeTech
