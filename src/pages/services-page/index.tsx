@@ -89,7 +89,7 @@ const ServicesPage = () => {
                 <div className="bg-white rounded-lg shadow-lg p-5">
                     <div className="flex flex-col justify-center items-center">
                         <Image
-                            src="/treinamentos.jpg"
+                            src="/treinamento.jpg"
                             alt="Treinamento"
                             width={135}
                             height={50}
