@@ -78,7 +78,7 @@ const ServicesPage = () => {
                             height={60}
                             className="rounded-full border border-gray-300"
                         />
-                        <h2 className="text-xl font-bold text-gray-700 mt-4">
+                        <h2 className="text-xl font-bold text-gray-700 mt-4 text-center">
                             Manutenção e suporte técnico
                         </h2>
                         <p className="text-gray-600 text-center mt-2">
