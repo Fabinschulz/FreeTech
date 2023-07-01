@@ -12,10 +12,10 @@ function validationSchemaContactForm() {
     return object().shape({
         firstName: string()
             .required('Nome é obrigatório')
-            .matches(/^[a-zA-Z\s]+$/, 'Nome não pode conter números'),
+            .matches(/^[a-zA-Z\s]+$/, 'Nome precisa conter apenas letras alfabéticas'),
         lastName: string()
             .required('Sobrenome é obrigatório')
-            .matches(/^[a-zA-Z\s]+$/, 'Sobrenome não pode conter números'),
+            .matches(/^[a-zA-Z\s]+$/, 'Sobrenome precisa conter apenas letras alfabéticas'),
         email: string()
             .email('E-mail inválido')
             .required('Email é obrigatório')

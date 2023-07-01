@@ -34,7 +34,7 @@ const Footer: FunctionComponent<any> = () => {
                         </a>
                     </div>
                     <p className="mt-6 sm:mt-0 text-sm sm:text-base text-white">
-                        &copy; 2021 FreeTech. Todos os direitos reservados.
+                        &copy; 2023 FreeTech. Todos os direitos reservados.
                     </p>
                 </div>
             </div>
