@@ -26,3 +26,5 @@ Se você está pronto para levar seu negócio para o próximo nível com soluç�
 
 Junte-se à Free Tech e desbloqueie o potencial ilimitado do futuro digital.
 
+url: https://freetech.vercel.app/
+
